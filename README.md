@@ -9,18 +9,21 @@ and switch to the other. You assume the quiet one is still working when it has a
 been waiting the whole time for a yes/no. Nothing in the tab bar tells them apart, so the
 only way to know is to switch over and look — again and again.
 
-So the tab says it itself.
+So the tab says it itself. You stay in the tab you're working in, and the tab you're *not*
+in reports what it's doing as an outline.
 
-![iTerm2 tab bar with one tab tinted amber and another outlined green](tab-bar.png)
+![Green outline — the other tab is working](docs/card-green.png)
 
-| Tab | Meaning |
-|---|---|
-| green | Claude is working |
-| amber | waiting on you — a permission prompt or a question |
-| no colour | turn finished |
+![Amber outline — the other tab is asking you something](docs/card-amber.png)
 
-The tab you're in is filled; a tab in the background shows the same state as an outline.
-That's the part that matters — you learn what the other tab is doing without going there.
+![No outline — the other tab has finished](docs/card-done.png)
+
+Only a background tab draws as an outline; the tab in front is filled instead. That's the
+part that matters — you learn what the other tab is doing without going there.
+
+Running for real:
+
+![iTerm2 tab bar with one tab tinted amber and another outlined green](docs/tab-bar.png)
 
 ## Usage
 
